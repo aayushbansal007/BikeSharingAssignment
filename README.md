@@ -37,8 +37,8 @@ You are required to model the demand for shared bikes with the available indepen
 
 ## Conclusions
 <ul>
-    <li>The R² value for the test data = 0.7867211694119394,</li>
-    <li>The R² value for the train data = 0.803;</li>
+    <li>The R² value for the test data = 0.8281625450407033,</li>
+    <li>The R² value for the train data = 0.853;</li>
     
 </ul>
  
@@ -51,12 +51,12 @@ The features that are profitable for rentals:-
 <ul>
 <li>Year</li>
 <li>Temp</li>
-<li>Working Day</li>
+<li>weathersit_Sunshine</li>
 </ul>
 The features that are unprofitable for rentals:-
 <ul>
 <li>Humidity</li>
-<li>Weather</li>
+<li>weathersit_Rain</li>
 <li>Wind Speed</li>
 </ul>
 
